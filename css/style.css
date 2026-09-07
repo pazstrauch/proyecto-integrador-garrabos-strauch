@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: beige;
+    background-color: #F8F7F4;
 }
 
 .logo {
@@ -17,7 +17,10 @@ body {
 
 .contenedor-padre {
     display: flex;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid #262A2E;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
 }
 
 .cuerpo {
@@ -26,12 +29,22 @@ body {
 
 .catalogo {
     margin: 20px;
-    padding: 20px 20px 20px 5px;
+    padding: 20px 60px 20px 5px;
     background-color: white;
+    border-radius: 20px;
+}
+
+.categorias {
+    border-bottom: 1px solid gray;
+    margin: 10px 0px;
 }
 
 .centro {
     margin: 25px;
+}
+
+.productos-aleatorios {
+    margin-bottom: 30px;
 }
 
 .todos-productos {
@@ -45,20 +58,91 @@ body {
     margin: 10px;
     padding: 10px;
     width: 200px;
+    background-color: white;
+    border-radius: 20px;
 }
+
 .producto-individual img {
     width: 100%;
 }
-h3 {
-    color:rgb(71, 145, 190);
+
+button {
+    background-color: #8A7AD1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #8A7AD1;
 }
+
+button a {
+    color: white;
+}
+
+.ver-mas {
+    margin-top: 10px;
+}
+
+h3 {
+    color:#262A2E;
+}
+
 .descripcion-producto {
     color: gray;
 }
+
 h2 {
-    color: rgb(75, 132, 211);
-    font-size: 36px;
+    color: #262A2E;
+    font-size: 25px;
 }
+
 .catalogo a {
     color: gray;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #8A7AD1;
+    height: 50px;
+}
+
+.menu-fondo {
+    display: flex;
+}
+
+.fondo-individual {
+    margin: 20px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.detalle-porducto {
+    display: flex;
+}
+
+.img-producto-detalle {
+    width: 350px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.info-producto-detalle {
+    margin: 30px;
+}
+
+.info-producto-detalle h3 {
+    margin: 15px;
+}
+
+.info-producto-detalle p {
+    margin: 15px;
 }
