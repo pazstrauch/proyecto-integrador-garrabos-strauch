@@ -37,6 +37,9 @@ body {
     border-bottom: 1px solid gray;
     margin: 10px 0px;
 }
+.catalogo li{
+    border-bottom: 1px solid gray;
+}
 
 .centro {
     margin: 25px;
@@ -78,7 +81,14 @@ body {
     border: 1px solid #8A7AD1;
     color: white;
 }
+.buscador{
+    height: 42px;
+    width: 350px;
+    padding: 15px;
+    border: 2px solid rgb(144, 144, 177);
+    border-radius: 12px;
 
+}
 .precio-producto {
     margin-bottom: 10px;
 }
