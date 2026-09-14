@@ -8,20 +8,20 @@
 </head>
 <body>
     <header class="contenedor-padre">
-        <div class="barra-navegacion">
-            <a href="./index.html" class="logo-link">
-                <img src="./img/logo-marca.png" alt="Logo tu casa" class="logo">
-            </a>
-        </div>
+        <a href="./index.html" class="logo-link">
+            <img src="./img/logo-marca.png" alt="Logo tu casa" class="logo">
+        </a>
         <div>
-            buscador
+            <form action="resultados.html" method="get">
+                <input type="text" name="buscador" value="" placeholder="Buscar...">
+            </form>
         </div>
         <div>
                 <a href="./login.html" class="acceso">Ingresar</a>
                 <a href="./register.html" class="acceso">Regitrarme</a>
         </div>
     </header>
-    <section class="cuerpo">
+    <main class="cuerpo">
         <aside class="catalogo">
             <h2>Categorías</h2>
             <ul>
@@ -51,7 +51,7 @@
                 <li><a href="./categoria.html">Womens watches</a></li>
             </ul>
         </aside>
-        <main class="centro">
+        <section class="centro">
             <section class="productos-aleatorios">
                 <h2>Productos aleatorios</h2>
                 <div class="todos-productos">
@@ -204,9 +204,26 @@
                     </article>
                 </div>
             </section>
-        </main>
-    </section>
+        </section>
+    </main>
     <footer>
+        <ul class="menu-fondo">
+            <li class="fondo-individual">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="fondo-individual">
+                <a href="categoria.html">Categoria</a>
+            </li>
+            <li class="fondo-individual">
+                <a href="product.html">Producto</a>
+            </li>
+            <li class="fondo-individual">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="fondo-individual">
+                <a href="register.html">Registrate</a>
+            </li>
+        </ul>
         <p> Sofia Garrabos y Paz Strauch</p>
     </footer>
 </body>
