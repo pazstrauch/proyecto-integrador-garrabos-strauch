@@ -19,7 +19,6 @@ body {
     display: flex;
     border-bottom: 3px solid black;
 }
-
 .cuerpo {
     display: flex;
 }
@@ -61,4 +60,8 @@ h2 {
 }
 .catalogo a {
     color: gray;
+}
+.productos-aleatorios {
+    height: 1000px;
+    width: 1000px;
 }
