@@ -43,7 +43,13 @@ body {
 }
 
 .productos-aleatorios {
-    margin-bottom: 30px;
+    height: 1000px;
+    width: 1000px;
+    margin-bottom: 200px;
+}
+
+.productos-destacados {
+    margin-top: 200px;
 }
 
 .todos-productos {
@@ -65,11 +71,24 @@ body {
     width: 100%;
 }
 
-button {
+.botondetalle {
     background-color: #8A7AD1;
     padding: 5px 10px;
     border-radius: 10px;
     border: 1px solid #8A7AD1;
+    color: white;
+}
+
+.precio-producto {
+    margin-bottom: 10px;
+}
+
+.acceso {
+    background-color: #8A7AD1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #8A7AD1;
+    color: white;
 }
 
 button a {
@@ -95,10 +114,6 @@ h2 {
 
 .catalogo a {
     color: gray;
-}
-.productos-aleatorios {
-    height: 1000px;
-    width: 1000px;
 }
 
 footer {
