@@ -37,9 +37,6 @@ body {
     border-bottom: 1px solid gray;
     margin: 10px 0px;
 }
-.catalogo li{
-    border-bottom: 1px solid gray;
-}
 
 .centro {
     margin: 25px;
@@ -196,4 +193,25 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-individual {
+    background-color: white;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.titulo-reviews {
+    margin: 0px 0px 0px 30px;
+    font-weight: bolder;
+    font-size: 30px;
 }
