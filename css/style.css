@@ -221,7 +221,7 @@ footer p {
 color: #8A7AD1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .producto-individual {
         width: 40%;
     }
@@ -255,7 +255,7 @@ color: #8A7AD1;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
     .cuerpo {
         flex-direction: column;
     }
