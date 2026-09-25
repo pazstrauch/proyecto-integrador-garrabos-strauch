@@ -16,11 +16,13 @@
                 <input class="buscador" type="text" name="buscador" value="" placeholder="Buscar...">
             </form>
         </div>
-        <div>
-            <a href="./index.html" class="acceso">Home</a>
-            <a href="./login.html" class="acceso">Ingresar</a>
-            <a href="./register.html" class="acceso">Registrarme</a>
-        </div>
+        <nav>
+            <ul class="barra-navegacion">
+                <li><a href="./index.html" class="acceso">Home</a></li>
+                <li><a href="./login.html" class="acceso">Ingresar</a></li>
+                <li><a href="./register.html" class="acceso">Registrarme</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="cuerpo">
         <aside class="catalogo">
@@ -52,7 +54,7 @@
                 <li class="categorias"><a href="./categoria.html">Womens watches</a></li>
             </ul>
         </aside>
-        <section class="centro">
+        <div class="centro">
             <section class="productos-aleatorios">
                 <h2>Home decoration</h2>
                 <div class="todos-productos">
@@ -72,14 +74,14 @@
                        <a href="./product.html" class="botondetalle">Ver detalle</a>
                     </article>
                     <article class="producto-individual">
-                        <img src="./img/fotolampara - copia - copia.jpeg" alt="lampara">
+                        <img src="./img/fotolampara.jpeg" alt="lampara">
                         <h3 class="titulo-producto">Lampara de estudio</h3>
                         <p class="descripcion-producto">Lámpara compacta ideal para estudiar, leer o trabajar.</p>
                         <p class="precio-producto">$39.500</p>
                          <a href="./product.html" class="botondetalle">Ver detalle</a>
                     </article>
                     <article class="producto-individual">
-                        <img src="./img/taza - copia.jpeg" alt="Taza">
+                        <img src="./img/fototaza.jpeg" alt="Taza">
                         <h3 class="titulo-producto">Taza de ceramica</h3>
                         <p class="descripcion-producto">Taza clásica, resistente y perfecta para bebidas calientes.</p>
                         <p class="precio-producto">$12.500</p>
@@ -93,14 +95,12 @@
                         <a href="./product.html" class="botondetalle">Ver detalle</a>
                     </article>
                     <article class="producto-individual">
-                        <img src="./img/Fotovela - copia.jpeg" alt="Vela">
+                        <img src="./img/fotovela.jpeg" alt="Vela">
                         <h3 class="titulo-producto">Vela</h3>
                         <p class="descripcion-producto">Decoracion de casa ideal para iluminar y calefaccionar</p>
                         <p class="precio-producto">$16.000</p>
                         <a href="./product.html" class="botondetalle">Ver detalle</a>
                     </article>
-                    
-                    
                     <article class="producto-individual">
                         <img src="./img/fotosillon.jpeg" alt="sillon">
                         <h3 class="titulo-producto"> Sillon individual beige</h3>
@@ -110,24 +110,22 @@
                     </article>
                 </div>
             </section>
+        </div>
+    </main>
     <footer>
-        <ul class="menu-fondo">
-            <li class="fondo-individual">
-                <a href="./index.html">Home</a>
-            </li>
-            <li class="fondo-individual">
-                <a href="./categoria.html">Categoria</a>
-            </li>
-            <li class="fondo-individual">
-                <a href="./product.html">Producto</a>
-            </li>
-            <li class="fondo-individual">
-                <a href="./login.html">Login</a>
-            </li>
-            <li class="fondo-individual">
-                <a href="./register.html">Registrate</a>
-            </li>
-        </ul>
+        <nav>
+            <ul class="menu-fondo">
+                <li class="fondo-individual">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="fondo-individual">
+                    <a href="./login.html">Login</a>
+                </li>
+                <li class="fondo-individual">
+                    <a href="./register.html">Registrate</a>
+                </li>
+            </ul>
+        </nav>
         <p> Sofia Garrabos y Paz Strauch</p>
     </footer>
 </body>

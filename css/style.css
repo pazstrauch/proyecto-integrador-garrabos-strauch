@@ -22,10 +22,13 @@ body {
     justify-content: space-between;
     padding: 10px 40px;
 }
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+}
 .cuerpo {
     display: flex;
 }
-
 .catalogo {
     margin: 20px;
     padding: 20px 60px 20px 5px;
@@ -91,6 +94,7 @@ body {
     border-radius: 10px;
     border: 1px solid #8A7AD1;
     color: white;
+    margin: 5px;
 }
 
 button a {
