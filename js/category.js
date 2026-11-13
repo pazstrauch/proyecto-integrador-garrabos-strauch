@@ -4,5 +4,14 @@ fetch("https://dummyjson.com/products/category/beauty")
         return response.json();
     })
     .then(function(data) {
-        console.log(data);
+      let productos = data.products;
+     for(let  i = 0; i < productos.length; i++) {
+contenedor.InnerHTML =+
+<article class="producto-individual"> 
+    <h3> $(producto[i].title)</h3>
+    <img src="${productos[i].thumbnail}"alt="$(productos[i].title)"> </img>"
+    <p> Precio: $${productos[i].price}</p>
+</article>
+}
+     
     });
