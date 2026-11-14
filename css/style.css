@@ -225,6 +225,11 @@ footer p {
 color: #8A7AD1;
 }
 
+.busquedas {
+    margin-top: 5px;
+    color: rgb(134, 12, 12);
+}
+
 @media (max-width: 768px) {
     .producto-individual {
         width: 40%;
