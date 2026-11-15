@@ -1,6 +1,6 @@
-
 let contenedor = document.querySelector(".todos-productos");
-
+let parametros = new URLSearchParams(location.search);
+let categoria = parametros.get("category");
 fetch("https://dummyjson.com/products/category/beauty")
     .then(function(response) {
         return response.json();
