@@ -1,7 +1,10 @@
+let datourl = new URLSearchParams(location.search);
+let categoria = datourl.get("category");
+let tituloCategoria = document.querySelector(".titulo-categoria");
+tituloCategoria.innerText = categoria;
+console.log("categoria");
 let contenedor = document.querySelector(".todos-productos");
-let parametros = new URLSearchParams(location.search);
-let categoria = parametros.get("category");
-fetch("https://dummyjson.com/products/category/beauty")
+fetch("https://dummyjson.com/products/category/" + categoria)
     .then(function(response) {
         return response.json();
     })
@@ -14,6 +17,7 @@ fetch("https://dummyjson.com/products/category/beauty")
                     <h3>${productos[i].title}</h3>
                     <img src="${productos[i].thumbnail}" alt="${productos[i].title}">
                     <p>Precio: $${productos[i].price}</p>
+                    <a href = "./product.html?id=${productos[i].id}"> Ver detalle </a>
                 </article>
             `;
         }
