@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bowl para cocina</title>
+    <title>Producto seleccionado</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -25,43 +25,24 @@
             </ul>
         </nav>
         <p class="saludo-usuario"></p>
-         <a href="#" class="logout">Logout</a>
+         <a href="#" class="logout botondetalle">Logout</a>
     </header>
     <main>
         <section class="detalle-porducto">
-            <img src="./img/Fotobowl.jpeg" alt="Bowl" class="img-producto-detalle">
+            <div class="foto-producto"></div>
             <article class="info-producto-detalle">
-                <h3>Bowl para cocina</h3>
-                <p>Marca: Ganga Home</p>
-                <p>Diseñado para acompañarte en cada receta, este bowl combina máxima funcionalidad con un acabado gris neutro y moderno que encaja en cualquier cocina. Su formato espacioso permite batir mezclas grandes, preparar ensaladas familiares o servir botanas en tus reuniones sin derrames. Fabricado en plástico de alta resistencia, es un utensilio ligero, duradero y fácil de limpiar.</p>
-                <p>$18.500</p>
-                <p>Categoría: Home decoration</p>
-                <p>Stock: 10 unidades</p>
-                <p>Tags: cocina, hogar, bowl</p>
+                <h3 class="nombre-producto"></h3>
+                <p class="marca-producto"></p>
+                <p class="descripcion-detalle"></p>
+                <p class="precio-detalle"></p>
+                <p class="categoria-producto"></p>
+                <p class="stock-producto"></p>
+                <p class="tags-producto"></p>
             </article>
         </section>
         <section>    
             <h3 class="titulo-reviews">Reviews</h3>
-            <article class="reviews">
-                <div class="review-individual">
-                    <p>Martina López</p>
-                    <p class="descripcion-producto">⭐⭐⭐⭐☆</p>
-                    <p class="descripcion-producto">16/09/2026</p>
-                    <p class="descripcion-producto">Muy lindo y práctico. Tiene buen tamaño y es cómodo para usar todos los días. Le doy 4/5 porque esperaba que fuera un poquito más resistente.</p>
-                </div>
-                <div class="review-individual">
-                    <p>Tomás Fernández</p>
-                    <p class="descripcion-producto">⭐⭐⭐☆☆</p>
-                    <p class="descripcion-producto">18/09/2026</p>
-                    <p class="descripcion-producto">Está bien, pero esperaba un poco más de calidad. El tamaño es bueno, aunque el material podría ser más resistente.</p>
-                </div>
-                <div class="review-individual">
-                    <p>Sofía Ramírez</p>
-                    <p class="descripcion-producto">⭐⭐⭐⭐⭐</p>
-                    <p class="descripcion-producto">25/09/2026</p>
-                    <p class="descripcion-producto">Excelente bowl, lindo, práctico y de muy buena calidad. Tiene el tamaño perfecto y lo uso todos los días.</p>
-                </div>
-            </article>
+            <article class="reviews"></article>
         </section>
     </main>
     <footer>
@@ -81,9 +62,10 @@
         <p> Sofia Garrabos y Paz Strauch</p>
     </footer>
 
-    <script src="./js/index.js"></script>
-    <script src="./js/saludo.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/saludo.js"></script>
 <script src="./js/logout.js"></script>
+<script src="./js/product.js"></script>
 
 </body>
 </html>

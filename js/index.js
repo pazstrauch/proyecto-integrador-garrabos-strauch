@@ -37,7 +37,7 @@ fetch ("https://dummyjson.com/products/category/sports-accessories")
         for (let i = 0; i < 10; i++) {
             listaSports.innerHTML += `
                 <article class="producto-individual">
-                    <img src="${data.products[i].images}" alt="${data.products[i].title}">
+                    <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
                     <h3 class="titulo-producto">${data.products[i].title}</h3>
                     <p class="descripcion-producto">${data.products[i].description}</p>
                     <p class="precio-producto">$${data.products[i].price}</p>
@@ -57,7 +57,7 @@ fetch("https://dummyjson.com/products/category/kitchen-accessories")
         for (let i = 0; i < 10; i++) {
             listaKitchen.innerHTML += `
                 <article class="producto-individual">
-                    <img src="${data.products[i].images}" alt="${data.products[i].title}">
+                    <img src="${data.products[i].thumbnail}" alt="${data.products[i].title}">
                     <h3 class="titulo-producto">${data.products[i].title}</h3>
                     <p class="descripcion-producto">${data.products[i].description}</p>
                     <p class="precio-producto">$${data.products[i].price}</p>

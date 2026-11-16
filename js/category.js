@@ -1,5 +1,5 @@
 let datourl = new URLSearchParams(location.search);
-let categoria = datourl.get("category");
+let categoria = datourl.get("categoria");
 let tituloCategoria = document.querySelector(".titulo-categoria");
 tituloCategoria.innerText = categoria;
 console.log("categoria");
@@ -14,10 +14,10 @@ fetch("https://dummyjson.com/products/category/" + categoria)
         for (let i = 0; i < productos.length; i++) {
             contenedor.innerHTML += `
                 <article class="producto-individual">
-                    <h3>${productos[i].title}</h3>
+                    <h3 class="titulo-producto">${productos[i].title}</h3>
                     <img src="${productos[i].thumbnail}" alt="${productos[i].title}">
-                    <p>Precio: $${productos[i].price}</p>
-                    <a href = "./product.html?id=${productos[i].id}"> Ver detalle </a>
+                    <p class= "precio-producto">Precio: $${productos[i].price}</p>
+                    <a href ="./product.html?id=${productos[i].id}" class="botondetalle"> Ver detalle </a>
                 </article>
             `;
         }

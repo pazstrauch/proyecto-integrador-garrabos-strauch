@@ -8,6 +8,6 @@ enlaceLogout.style.display = "none"
 if (mailUsuario != null) {
     saludoUsuario.innerText = "Bienvenido: " + mailUsuario
     menuLogin.style.display = "none"
-       menuRegistro.style.display = "none"
-       enlaceLogout.style.display = "inline"
+    menuRegistro.style.display = "none"
+    enlaceLogout.style.display = "inline"
 }
