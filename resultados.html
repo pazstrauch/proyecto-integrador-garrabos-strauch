@@ -14,6 +14,7 @@
         <div>
             <form action="./resultados.html" method="get">
                 <input class="buscador" type="text" name="buscador" value="" placeholder="Buscar...">
+                <button type="submit" class="boton-buscar">🔎</button>
                 <p class="busquedas"></p>
             </form>
         </div>
@@ -27,15 +28,14 @@
         <p class="saludo-usuario"></p>
         <a href="#" class="logout botondetalle">Logout</a>
     </header>
-    <main class="centro">
+    <main class="cuerpo">
+    <div class="centro">
         <h2 class="titulo-resultados"></h2>
         <div class="todos-productos lista-resultados"></div>
-    </main>
-    <aside class="catalogo">
-            <h2>Categorías</h2>
-            <ul class="lista-categorias"></ul>
-    </aside>
-    <footer>
+    </div>
+</main>
+
+<footer>
         <nav>
             <ul class="menu-fondo">
                 <li class="fondo-individual">
@@ -51,8 +51,6 @@
         </nav>
         <p> Sofia Garrabos y Paz Strauch</p>
     </footer>
-
-<script src="./js/index.js"></script>
 <script src="./js/saludo.js"></script>
 <script src="./js/logout.js"></script>
 <script src="./js/resultados.js"></script>

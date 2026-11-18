@@ -4,4 +4,4 @@ botonLogout.addEventListener("click", function(e) {
     e.preventDefault()
     localStorage.removeItem("mailUsuario")
     location.href = "./index.html"
-})
+}) 

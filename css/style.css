@@ -133,6 +133,10 @@ footer {
     height: 50px;
 }
 
+.error-register {
+    color: rgb(255, 28, 28);
+    font-size: large;
+}
 .menu-fondo {
     display: flex;
 }
@@ -140,7 +144,12 @@ footer {
 .fondo-individual {
     margin: 20px;
 }
-
+.busquedas {
+    color: rgb(255, 24, 24);
+}
+.error-login {
+    color: rgb(255, 33, 33);
+}
 footer ul li a {
     color: white;
 }
