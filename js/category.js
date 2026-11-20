@@ -22,18 +22,3 @@ fetch("https://dummyjson.com/products/category/" + categoria)
             `;
         }
     });
-    let formBuscador = document.querySelector("header form")
-let campoBuscador = document.querySelector(".buscador")
-let resultadosBusquedas = document.querySelector(".busquedas")
-
-formBuscador.addEventListener("submit", function(e) {
-    e.preventDefault()
-
-    if (campoBuscador.value == "") {
-        resultadosBusquedas.innerText = "El campo de búsqueda no puede estar vacío"
-    } else if (campoBuscador.value.length < 3) {
-        resultadosBusquedas.innerText = "Tenés que escribir al menos tres caracteres"
-    } else {
-        this.submit()
-    }
-})

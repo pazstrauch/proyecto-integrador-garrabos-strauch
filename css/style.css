@@ -171,7 +171,8 @@ footer p {
 
 .info-producto-detalle {
     margin: 15px;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .info-producto-detalle h3 {
@@ -213,6 +214,7 @@ footer p {
 .reviews {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -221,7 +223,7 @@ footer p {
     border-radius: 15px;
     width: 400px;
     height: 200px;
-    margin: 30px;
+    margin: 15px;
     padding: 10px;
 }
 

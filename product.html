@@ -28,23 +28,29 @@
         <p class="saludo-usuario"></p>
          <a href="#" class="logout botondetalle">Logout</a>
     </header>
-    <main>
-        <section class="detalle-porducto">
-            <div class="foto-producto"></div>
-            <article class="info-producto-detalle">
-                <h3 class="nombre-producto"></h3>
-                <p class="marca-producto"></p>
-                <p class="descripcion-detalle"></p>
-                <p class="precio-detalle"></p>
-                <p class="categoria-producto"></p>
-                <p class="stock-producto"></p>
-                <p class="tags-producto"></p>
-            </article>
-        </section>
-        <section>    
-            <h3 class="titulo-reviews">Reviews</h3>
-            <article class="reviews"></article>
-        </section>
+    <main class="cuerpo">
+        <aside class="catalogo">
+            <h2>Categorías</h2>
+            <ul class="lista-categorias"></ul>
+        </aside>
+        <div class="centro">
+            <section class="detalle-porducto">
+                <div class="foto-producto"></div>
+                <article class="info-producto-detalle">
+                    <h3 class="nombre-producto"></h3>
+                    <p class="marca-producto"></p>
+                    <p class="descripcion-detalle"></p>
+                    <p class="precio-detalle"></p>
+                    <p class="categoria-producto"></p>
+                    <p class="stock-producto"></p>
+                    <p class="tags-producto"></p>
+                </article>
+            </section>
+            <section>    
+                <h3 class="titulo-reviews">Reviews</h3>
+                <article class="reviews"></article>
+            </section>
+        </div>
     </main>
     <footer>
         <nav>
@@ -65,6 +71,7 @@
 <script src="./js/saludo.js"></script>
 <script src="./js/logout.js"></script>
 <script src="./js/product.js"></script>
+<script src="./js/index.js"></script>
 
 </body>
 </html>
